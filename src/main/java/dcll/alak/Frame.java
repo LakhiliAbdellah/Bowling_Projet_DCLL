@@ -63,4 +63,31 @@ public class Frame {
         return premierEssai;
     }
 
+
+    /**
+     * Modifie le score du premier essai.
+     *
+     * @param preE premier essai
+     */
+    final void setPremierEssai(final int preE) {
+        this.premierEssai = preE;
+    }
+
+    /**
+     * Retourne le score du deuxième jeu.
+     *
+     * @return le score du deuxième essai
+     */
+    final int getDeuxiemEssai() {
+        return deuxiemEssai;
+    }
+
+    /**
+     * Modifie le scoredu deuxième essai.
+     *
+     * @param deuxE deuxième essai
+     */
+    final void setDeuxiemEssai(final int deuxE) {
+        this.deuxiemEssai = deuxE;
+    }
 }

@@ -31,6 +31,7 @@ public class ScoreTotalTest {
         }
         assertEquals(scoreTotal.calculerScore(myScore), 300);
 
+
         myScore.clear();
 
         //cas 2 :
@@ -66,7 +67,6 @@ public class ScoreTotalTest {
         myScore.add(new Frame(0, 0));
 
         assertEquals(scoreTotal.calculerScore(myScore), 124);
-}
-
+    }
 
 }

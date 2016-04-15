@@ -12,7 +12,8 @@ public class ScoreTotal {
      * calculer le score total du game.
      *
      * @param jeux une partie
-     * @return ele score total
+     * @param jeux
+     * @return le score total
      */
     public final int calculerScore(final ArrayList<Frame> jeux) {
         int scoreTotal = 0;
